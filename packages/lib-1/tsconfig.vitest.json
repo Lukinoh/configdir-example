@@ -1,0 +1,5 @@
+{
+  "extends": "configdir-typescript-config/tsconfig.vitest.json",
+  // https://github.com/vitest-dev/vitest/issues/7420
+  "include": ["src/**/*.test*"]
+}

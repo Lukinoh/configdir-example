@@ -1,0 +1,24 @@
+{
+  "name": "configdir-lib-3",
+  "type": "module",
+  "scripts": {
+    "build": "unbuild",
+    "prepack": "unbuild"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "devDependencies": {
+    "configdir-typescript-config": "workspace:*",
+    "unbuild": "3.3.1",
+    "vitest": "3.0.5"
+  },
+  "main": "./dist/index.cjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "configdir-typescript-config",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./"
+    }
+  }
+}

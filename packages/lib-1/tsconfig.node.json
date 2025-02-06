@@ -1,0 +1,4 @@
+{
+  "extends": "configdir-typescript-config/tsconfig.node.json",
+  // Custom compilerOptions if needed
+}

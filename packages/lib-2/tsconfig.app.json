@@ -1,0 +1,3 @@
+{
+  "extends": "configdir-typescript-config/tsconfig.app.json"
+}
